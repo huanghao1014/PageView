@@ -6,13 +6,13 @@
 //  Copyright © 2019 Apple. All rights reserved.
 //
 
-#import "TPLPageViewController.h"
+#import "HHPageViewController.h"
 
-@interface TPLPageViewController ()
+@interface HHPageViewController ()
 @property (nonatomic, strong) UILabel *label;
 @end
 
-@implementation TPLPageViewController
+@implementation HHPageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

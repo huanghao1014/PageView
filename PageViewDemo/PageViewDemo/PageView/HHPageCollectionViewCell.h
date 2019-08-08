@@ -6,10 +6,10 @@
 //  Copyright © 2019 Apple. All rights reserved.
 //
 #import <UIKit/UIKit.h>
-#import "TPLPageViewModel.h"
+#import "HHPageViewModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TPLPageCollectionViewCell : UICollectionViewCell
+@interface HHPageCollectionViewCell : UICollectionViewCell
 @property (nonatomic, copy) NSString *itemName;
 @property (nonatomic, strong) UILabel *itemLabel;
 @property (nonatomic, strong) UIView *midLine;
@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSUInteger selectedFontSize;
 
 
-- (void)reloadDataTopButtonWithTitle:(TPLPageViewModel *)title indexPath:(NSIndexPath *)indexPath changeIndex:(NSInteger)changeindex;
+- (void)reloadDataTopButtonWithTitle:(HHPageViewModel *)title indexPath:(NSIndexPath *)indexPath changeIndex:(NSInteger)changeindex;
 
 @end
 

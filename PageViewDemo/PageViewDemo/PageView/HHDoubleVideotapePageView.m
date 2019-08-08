@@ -6,13 +6,13 @@
 //  Copyright © 2019 Apple. All rights reserved.
 //
 
-#import "TPLDoubleVideotapePageView.h"
-#import "TPLPageCollectionViewCell.h"
-#import "TPLPageViewModel.h"
+#import "HHDoubleVideotapePageView.h"
+#import "HHPageCollectionViewCell.h"
+#import "HHPageViewModel.h"
 // Pods
 #import <Masonry/Masonry.h>
 
-@interface TPLDoubleVideotapePageView ()<UICollectionViewDataSource, UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
+@interface HHDoubleVideotapePageView ()<UICollectionViewDataSource, UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) UIView *lineView;
 @property (nonatomic, assign) NSInteger changeIndex;
@@ -26,7 +26,7 @@
 @property (nonatomic, assign) CGFloat lineWidth;
 @property (nonatomic, assign) CGFloat lineHigth;
 @end
-@implementation TPLDoubleVideotapePageView
+@implementation HHDoubleVideotapePageView
 
 static NSString * const ID = @"TPLPageCollectionViewCell";
 
@@ -54,7 +54,7 @@ static NSString * const ID = @"TPLPageCollectionViewCell";
         self.collectionView.scrollEnabled = YES;
         self.collectionView.dataSource = self;
         self.collectionView.delegate = self;
-        [self.collectionView registerClass:[TPLPageCollectionViewCell class] forCellWithReuseIdentifier:ID];
+        [self.collectionView registerClass:[HHPageCollectionViewCell class] forCellWithReuseIdentifier:ID];
         
         self.lineView = [UIView new];
         self.lineView.layer.backgroundColor = lineColor.CGColor;
@@ -91,7 +91,7 @@ static NSString * const ID = @"TPLPageCollectionViewCell";
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    TPLPageCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ID forIndexPath:indexPath];
+    HHPageCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ID forIndexPath:indexPath];
     cell.defultFontSize = self.defultFontSize;
     cell.defultFontColor=self.defultFontColor;
     cell.defultFontFimaly=self.defultFontFimaly;
@@ -123,7 +123,7 @@ static NSString * const ID = @"TPLPageCollectionViewCell";
                                       animated:NO
                                 scrollPosition:UICollectionViewScrollPositionNone];
     self.changeIndex = selectIndex;
-    TPLPageViewModel *model = [self.items objectAtIndex:self.changeIndex];
+    HHPageViewModel *model = [self.items objectAtIndex:self.changeIndex];
     model.count=@(0);
     
     [self.collectionView reloadData];

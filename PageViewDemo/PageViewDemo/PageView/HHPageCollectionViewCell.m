@@ -6,17 +6,17 @@
 //  Copyright © 2019 Apple. All rights reserved.
 //
 
-#import "TPLPageCollectionViewCell.h"
+#import "HHPageCollectionViewCell.h"
 #import "UILabel+Badge.h"
 // Pods
 #import <Masonry/Masonry.h>
 
-@interface TPLPageCollectionViewCell()
+@interface HHPageCollectionViewCell()
 {
     
 }
 @end
-@implementation TPLPageCollectionViewCell
+@implementation HHPageCollectionViewCell
 
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
@@ -44,7 +44,7 @@
     return self;
 }
 
-- (void)reloadDataTopButtonWithTitle:(TPLPageViewModel *)model indexPath:(NSIndexPath *)indexPath changeIndex:(NSInteger)changeindex{
+- (void)reloadDataTopButtonWithTitle:(HHPageViewModel *)model indexPath:(NSIndexPath *)indexPath changeIndex:(NSInteger)changeindex{
     //显示tab名
     self.itemLabel.text = model.title;
     //redCount 大于0 显示小红点

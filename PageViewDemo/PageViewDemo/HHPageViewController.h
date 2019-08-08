@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TPLPageViewController : UIViewController
+@interface HHPageViewController : UIViewController
 
 @property (nonatomic, strong) NSString *strTitle;
 

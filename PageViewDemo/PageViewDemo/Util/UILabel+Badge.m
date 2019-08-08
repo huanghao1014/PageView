@@ -12,7 +12,7 @@
 
 static char const *redCountProperty = "redCountProperty";
 
-@implementation TPLBadgeView
+@implementation HHBadgeView
 
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
@@ -29,8 +29,8 @@ static char const *redCountProperty = "redCountProperty";
 
 - (void)setRedCount:(NSNumber *)redCount{
     objc_setAssociatedObject(self, redCountProperty, redCount, OBJC_ASSOCIATION_RETAIN);
-    for (TPLBadgeView *subView in self.subviews) {
-        if ([subView isKindOfClass:[TPLBadgeView class]]) {
+    for (HHBadgeView *subView in self.subviews) {
+        if ([subView isKindOfClass:[HHBadgeView class]]) {
             [subView removeFromSuperview];
         }
     }
@@ -40,7 +40,7 @@ static char const *redCountProperty = "redCountProperty";
                                                  options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading
                                               attributes:@{NSFontAttributeName:self.font} context:nil].size;
         self.numberOfLines = 1;
-        TPLBadgeView *redCircleView = [TPLBadgeView new];
+        HHBadgeView *redCircleView = [HHBadgeView new];
         redCircleView.backgroundColor=[UIColor redColor];
         [self layoutIfNeeded];
         CGFloat redX = (self.bounds.size.width - size.width)/2 + size.width;

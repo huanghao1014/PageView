@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TPLPageViewModel : NSObject
+@interface HHPageViewModel : NSObject
 //未读数量
 @property (nonatomic, assign)  NSNumber *count;
 //项目名称

@@ -6,8 +6,8 @@
 //  Copyright © 2019 Apple. All rights reserved.
 //
 
-#import "TPLPageViewModel.h"
+#import "HHPageViewModel.h"
 
-@implementation TPLPageViewModel
+@implementation HHPageViewModel
 
 @end

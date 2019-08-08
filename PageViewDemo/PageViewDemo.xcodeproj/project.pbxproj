@@ -15,11 +15,11 @@
 		18A2826622F9151100C98932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2826522F9151100C98932 /* main.m */; };
 		18A2827022F9151100C98932 /* PageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2826F22F9151100C98932 /* PageViewDemoTests.m */; };
 		18A2827B22F9151100C98932 /* PageViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2827A22F9151100C98932 /* PageViewDemoUITests.m */; };
-		18A2828B22F915DA00C98932 /* TPLDoubleVideotapePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2828A22F915DA00C98932 /* TPLDoubleVideotapePageView.m */; };
-		18A2828E22F9166F00C98932 /* TPLPageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2828D22F9166F00C98932 /* TPLPageCollectionViewCell.m */; };
+		18A2828B22F915DA00C98932 /* HHDoubleVideotapePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2828A22F915DA00C98932 /* HHDoubleVideotapePageView.m */; };
+		18A2828E22F9166F00C98932 /* HHPageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2828D22F9166F00C98932 /* HHPageCollectionViewCell.m */; };
 		18A2829C22F97FA000C98932 /* UILabel+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2829B22F97FA000C98932 /* UILabel+Badge.m */; };
-		18A2829F22FA6EB700C98932 /* TPLPageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2829E22FA6EB700C98932 /* TPLPageViewModel.m */; };
-		18A282A222FA7EB800C98932 /* TPLPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A282A122FA7EB800C98932 /* TPLPageViewController.m */; };
+		18A2829F22FA6EB700C98932 /* HHPageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A2829E22FA6EB700C98932 /* HHPageViewModel.m */; };
+		18A282A222FA7EB800C98932 /* HHPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A282A122FA7EB800C98932 /* HHPageViewController.m */; };
 		2A3E9E03FD6E9938EDF12C05 /* Pods_PageViewDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1924710F1C592BE514E05B77 /* Pods_PageViewDemoUITests.framework */; };
 		E0422438DC1DB618028B9BD5 /* Pods_PageViewDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9379FBEA8B6E8997B73AA40E /* Pods_PageViewDemoTests.framework */; };
 		E5CDCCBC25B3359EAF4233B6 /* Pods_PageViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F95F5FF3505A8613D234BF1 /* Pods_PageViewDemo.framework */; };
@@ -59,16 +59,16 @@
 		18A2827622F9151100C98932 /* PageViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A2827A22F9151100C98932 /* PageViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewDemoUITests.m; sourceTree = "<group>"; };
 		18A2827C22F9151100C98932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18A2828922F915DA00C98932 /* TPLDoubleVideotapePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLDoubleVideotapePageView.h; sourceTree = "<group>"; };
-		18A2828A22F915DA00C98932 /* TPLDoubleVideotapePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPLDoubleVideotapePageView.m; sourceTree = "<group>"; };
-		18A2828C22F9166F00C98932 /* TPLPageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLPageCollectionViewCell.h; sourceTree = "<group>"; };
-		18A2828D22F9166F00C98932 /* TPLPageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPLPageCollectionViewCell.m; sourceTree = "<group>"; };
+		18A2828922F915DA00C98932 /* HHDoubleVideotapePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHDoubleVideotapePageView.h; sourceTree = "<group>"; };
+		18A2828A22F915DA00C98932 /* HHDoubleVideotapePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDoubleVideotapePageView.m; sourceTree = "<group>"; };
+		18A2828C22F9166F00C98932 /* HHPageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPageCollectionViewCell.h; sourceTree = "<group>"; };
+		18A2828D22F9166F00C98932 /* HHPageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHPageCollectionViewCell.m; sourceTree = "<group>"; };
 		18A2829A22F97FA000C98932 /* UILabel+Badge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Badge.h"; sourceTree = "<group>"; };
 		18A2829B22F97FA000C98932 /* UILabel+Badge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Badge.m"; sourceTree = "<group>"; };
-		18A2829D22FA6EB700C98932 /* TPLPageViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLPageViewModel.h; sourceTree = "<group>"; };
-		18A2829E22FA6EB700C98932 /* TPLPageViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPLPageViewModel.m; sourceTree = "<group>"; };
-		18A282A022FA7EB800C98932 /* TPLPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPLPageViewController.h; sourceTree = "<group>"; };
-		18A282A122FA7EB800C98932 /* TPLPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPLPageViewController.m; sourceTree = "<group>"; };
+		18A2829D22FA6EB700C98932 /* HHPageViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPageViewModel.h; sourceTree = "<group>"; };
+		18A2829E22FA6EB700C98932 /* HHPageViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHPageViewModel.m; sourceTree = "<group>"; };
+		18A282A022FA7EB800C98932 /* HHPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPageViewController.h; sourceTree = "<group>"; };
+		18A282A122FA7EB800C98932 /* HHPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHPageViewController.m; sourceTree = "<group>"; };
 		1924710F1C592BE514E05B77 /* Pods_PageViewDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageViewDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E0F776B92C173456C5BE73 /* Pods-PageViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageViewDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PageViewDemoUITests/Pods-PageViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		47AC41C87AC9C8074582DAA5 /* Pods-PageViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageViewDemo.release.xcconfig"; path = "Target Support Files/Pods-PageViewDemo/Pods-PageViewDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,8 +140,8 @@
 				18A2825722F9151000C98932 /* AppDelegate.m */,
 				18A2825922F9151000C98932 /* ViewController.h */,
 				18A2825A22F9151000C98932 /* ViewController.m */,
-				18A282A022FA7EB800C98932 /* TPLPageViewController.h */,
-				18A282A122FA7EB800C98932 /* TPLPageViewController.m */,
+				18A282A022FA7EB800C98932 /* HHPageViewController.h */,
+				18A282A122FA7EB800C98932 /* HHPageViewController.m */,
 				18A2825C22F9151000C98932 /* Main.storyboard */,
 				18A2825F22F9151100C98932 /* Assets.xcassets */,
 				18A2826122F9151100C98932 /* LaunchScreen.storyboard */,
@@ -172,10 +172,10 @@
 		18A2828822F9153100C98932 /* PageView */ = {
 			isa = PBXGroup;
 			children = (
-				18A2828922F915DA00C98932 /* TPLDoubleVideotapePageView.h */,
-				18A2828A22F915DA00C98932 /* TPLDoubleVideotapePageView.m */,
-				18A2828C22F9166F00C98932 /* TPLPageCollectionViewCell.h */,
-				18A2828D22F9166F00C98932 /* TPLPageCollectionViewCell.m */,
+				18A2828922F915DA00C98932 /* HHDoubleVideotapePageView.h */,
+				18A2828A22F915DA00C98932 /* HHDoubleVideotapePageView.m */,
+				18A2828C22F9166F00C98932 /* HHPageCollectionViewCell.h */,
+				18A2828D22F9166F00C98932 /* HHPageCollectionViewCell.m */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -183,8 +183,8 @@
 		18A282A322FA846100C98932 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				18A2829D22FA6EB700C98932 /* TPLPageViewModel.h */,
-				18A2829E22FA6EB700C98932 /* TPLPageViewModel.m */,
+				18A2829D22FA6EB700C98932 /* HHPageViewModel.h */,
+				18A2829E22FA6EB700C98932 /* HHPageViewModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -442,13 +442,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A2825B22F9151000C98932 /* ViewController.m in Sources */,
-				18A2828E22F9166F00C98932 /* TPLPageCollectionViewCell.m in Sources */,
+				18A2828E22F9166F00C98932 /* HHPageCollectionViewCell.m in Sources */,
 				18A2826622F9151100C98932 /* main.m in Sources */,
 				18A2825822F9151000C98932 /* AppDelegate.m in Sources */,
 				18A2829C22F97FA000C98932 /* UILabel+Badge.m in Sources */,
-				18A2829F22FA6EB700C98932 /* TPLPageViewModel.m in Sources */,
-				18A282A222FA7EB800C98932 /* TPLPageViewController.m in Sources */,
-				18A2828B22F915DA00C98932 /* TPLDoubleVideotapePageView.m in Sources */,
+				18A2829F22FA6EB700C98932 /* HHPageViewModel.m in Sources */,
+				18A282A222FA7EB800C98932 /* HHPageViewController.m in Sources */,
+				18A2828B22F915DA00C98932 /* HHDoubleVideotapePageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,7 +628,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tplivingface.tplife.com.PageViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = hh.com.PageViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -647,7 +647,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tplivingface.tplife.com.PageViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = hh.com.PageViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -10,11 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^TPLTabBarBlock)(NSUInteger index);
+typedef void(^HHTabBarBlock)(NSUInteger index);
 
-@interface TPLDoubleVideotapePageView : UIView
+@interface HHDoubleVideotapePageView : UIView
 
-@property (nonatomic, copy) TPLTabBarBlock selectBlock;
+@property (nonatomic, copy) HHTabBarBlock selectBlock;
 
 //选中位置
 @property (nonatomic, assign) NSUInteger selectIndex;

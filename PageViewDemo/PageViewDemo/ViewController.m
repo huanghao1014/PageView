@@ -7,15 +7,15 @@
 //
 
 #import "ViewController.h"
-#import "TPLDoubleVideotapePageView.h"
-#import "TPLPageViewModel.h"
-#import "TPLPageViewController.h"
+#import "HHDoubleVideotapePageView.h"
+#import "HHPageViewModel.h"
+#import "HHPageViewController.h"
 
 @interface ViewController ()<UIScrollViewDelegate>
 @property (nonatomic, assign) NSInteger currentIndex;
 @property (nonatomic, strong) NSMutableArray *data;
 @property (nonatomic, strong) UIScrollView *scrollView;
-@property (nonatomic, strong) TPLDoubleVideotapePageView *itemView;
+@property (nonatomic, strong) HHDoubleVideotapePageView *itemView;
 @end
 
 @implementation ViewController
@@ -25,12 +25,12 @@
     self.view.backgroundColor=[UIColor whiteColor];
     self.data=[NSMutableArray new];
     
-    //初始化tab内容
+    //set tab data
     [self initData];
     
     UIColor *lineColor=[UIColor colorWithRed:31/255.0 green:195/255.0 blue:249/255.0 alpha:1.0];
-//    self.itemView = [[TPLDoubleVideotapePageView alloc] initWithFrame:CGRectMake(0, 50, [UIScreen mainScreen].bounds.size.width, 50)count:self.data.count left:10.0f midSpaceSize:30.0f cellWidth:100.0f lineWidth:40 lineHigth:6 lineColor:lineColor];
-    self.itemView = [[TPLDoubleVideotapePageView alloc] initWithFrame:CGRectMake(0, 50, [UIScreen mainScreen].bounds.size.width, 50)count:self.data.count lineWidth:40 lineHigth:6 lineColor:lineColor];
+//    self.itemView = [[HHDoubleVideotapePageView alloc] initWithFrame:CGRectMake(0, 50, [UIScreen mainScreen].bounds.size.width, 50)count:self.data.count left:10.0f midSpaceSize:30.0f cellWidth:100.0f lineWidth:40 lineHigth:6 lineColor:lineColor];
+    self.itemView = [[HHDoubleVideotapePageView alloc] initWithFrame:CGRectMake(0, 50, [UIScreen mainScreen].bounds.size.width, 50)count:self.data.count lineWidth:40 lineHigth:6 lineColor:lineColor];
     self.itemView.defultFontSize = 14;
     self.itemView.selectedFontSize = 20;
     self.itemView.defultFontColor=[UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1.0];
@@ -49,7 +49,7 @@
     
     
     
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     
     
@@ -72,7 +72,7 @@
     self.itemView.selectIndex = 0;
     
     for (NSInteger i = 0; i < self.data.count; i ++) {
-        TPLPageViewController *page = [TPLPageViewController new];
+        HHPageViewController *page = [HHPageViewController new];
         page.view.frame = CGRectMake(self.scrollView.bounds.size.width * i, 0, self.scrollView.bounds.size.width, self.scrollView.bounds.size.height);
         page.strTitle = [NSString stringWithFormat:@"%@",@(i+1)];
         [self.scrollView addSubview:page.view];
@@ -83,15 +83,15 @@
 }
 
 - (void)initData {
-    TPLPageViewModel *model2 = [TPLPageViewModel new];
+    HHPageViewModel *model2 = [HHPageViewModel new];
     model2.count = @(0);
-    model2.title = @"待处理";
-    TPLPageViewModel *model3 = [TPLPageViewModel new];
+    model2.title = @"First";
+    HHPageViewModel *model3 = [HHPageViewModel new];
     model3.count = @(1);  
-    model3.title = @"质检中";
-    TPLPageViewModel *model4 = [TPLPageViewModel new];
+    model3.title = @"Second";
+    HHPageViewModel *model4 = [HHPageViewModel new];
     model4.count = @(1);
-    model4.title = @"已完成";
+    model4.title = @"Third";
     
     [self.data addObject:model2];
     [self.data addObject:model3];
